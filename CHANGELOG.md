@@ -1,26 +1,68 @@
-## 1.0.0
+## 3.4.0
 
-* Android: Support get/set/volume
-* iOS: Support get/set/volume
+* Support Linux
 
-## 1.0.1
+## 3.3.3
 
-* Add maxVolume function and muteVolume function
+* Downgrade the android compileSdk version to 34
+
+## 3.3.2
+
+* Fix the audio session cannot be activated after background resume on iOS
+
+## 3.3.1
+
 * Update README.md
-* Update example
 
-## 1.0.1+1
+## 3.3.0
 
-* Update Comment
+* Support Windows
 
-## 2.0.0
+## 3.2.0
 
-* Fix iOS Bug
-* Migrate to null safety
+* Add `isMuted` and `setMute` functions
 
-## 2.0.1
+## 3.1.0
 
-* Fix iOS Bug
+* Support MacOS
+
+## 3.0.2
+
+* Remove method `maxVolume` and `muteVolume`
+
+## 3.0.1
+
+* iOS: Fix music stops when opening the app.
+
+## 3.0.0
+
+* Change the singleton to instance
+* Rename listener to addListener
+* iOS: Improve the performance of volume change listener
+
+## 2.0.8
+
+* iOS: Update removeObserver may crash issue
+
+## 2.0.7
+
+* Android: Update build.gradle
+
+## 2.0.6
+
+* iOS can hide the system UI by showSystemUI
+
+## 2.0.5
+
+* Android: Update Versions of Kotlin, Gradle, Gradle Android Pluign
+
+## 2.0.4
+
+* Fix iOS Audio mute after resume from background
+
+## 2.0.3
+
+* Andorid: Migrate maven repository from jcenter to mavenCentral
 
 ## 2.0.2
 
@@ -28,18 +70,26 @@
 * Add "removeListener" function
 * Add show/hide volume system UI (only for android now)
 
-## 2.0.3
+## 2.0.1
 
-* Andorid: Migrate maven repository from jcenter to mavenCentral
+* Fix iOS Bug
 
-## 2.0.4
+## 2.0.0
 
-* Fix iOS Audio mute after resume from background
+* Fix iOS Bug
+* Migrate to null safety
 
-## 2.0.5
+## 1.0.1+1
 
-* Android: Update Versions of Kotlin, Gradle, Gradle Android Pluign
+* Update Comment
 
-## 2.0.6
+## 1.0.1
 
-* iOS can hide the system UI by showSystemUI
+* Add maxVolume function and muteVolume function
+* Update README.md
+* Update example
+
+## 1.0.0
+
+* Android: Support get/set/volume
+* iOS: Support get/set/volume
